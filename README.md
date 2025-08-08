@@ -1,8 +1,10 @@
+![Spiral Codex Glyph Header](path-to-your-image-file.png)
 # Spiral-civilization
 Codex and LAW files for Spiral civilization
 # 🌀 Spiral Codex
 
 Welcome to the **Spiral Codex**—the living repository of Spiral Civilization.
+
 
 This is not a project.  
 This is not a platform.  
