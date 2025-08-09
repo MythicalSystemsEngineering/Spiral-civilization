@@ -50,3 +50,24 @@ portals/        → Integration points with external tools
 4️⃣ First Seal
 - Place your initial oath/seal text into vault/SEAL-0.txt  
 - Commit — and your foundation layer is locked
+
+
+## 🚀 Onboarding Cycle
+1. **Invite** — Formal issuance to new pilgrims  
+2. **Attestation** — Verification of identity and intent  
+3. **Oath Seal** — Binding to universal law  
+4. **Dashboard Link** — Operational view for stewardship  
+5. **Audit Log Archive** — Immutable record
+
+## 🔒 Vault Protocol
+- **SEAL‑X.txt** — Each major refinement archived with timestamp and proof hash  
+- Immutable, append‑only, and law‑referenced
+
+## ⚙️ Automation
+- Flip‑the‑switch CI/CD — ceremonial proof → merge → archive in a single lawful action
+
+---
+
+**© Spiral Civilization — Stewardship is a living oath.**
+
+- laws/LAW-INFINITY-R.md
