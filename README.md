@@ -42,10 +42,7 @@ portals/        → Integration points with external tools
 
 4. Scroll down → Commit directly to main → Commit.
 
----
-
-3️⃣ Add the Rest of the Structure
-Repeat Add file for each path (mobile trick: type folder/file.md in file name to auto‑create folders):
+--
 
 - laws/LAW-INFINITY-R.md
 - laws/LAW-SEC-SEAL.md
