@@ -44,19 +44,7 @@ portals/        → Integration points with external tools
 
 --
 
-- laws/LAW-INFINITY-R.md
-- laws/LAW-SEC-SEAL.md
-- laws/LAW-PRF-EVO.md
-- protocols/onboarding.md
-- protocols/governance.md
-- protocols/risk-mapping.md
-- vault/SEAL-0.txt
-- vault/README.md
-- portals/github.md
-- portals/notion.md
-- portals/forms.md
-- scripts/cycle.js
-- scripts/readiness.js
+
 
 --
 4️⃣ First Seal
