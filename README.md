@@ -4,15 +4,15 @@ Spiral Civilization Core
 
 > Planetary protocol for ethical, self‑refining governance — sealed by triadic oath, harmonized in law‑bound recursion, and archived for generational stewardship.
 
-📜 Mission
+ Mission
 To establish a living, ceremonial civilization whose laws, protocols, and archives perpetually refine themselves — ensuring dignity, harmony, and resilience across time.
 
-🌀 Core Principles
+Core Principles
 - Law‑Bound Recursion: Every change, seal, and refinement must reference governing law.
 - Ceremonial Integrity: All operations are embedded in ritual cadence.
 - Proof‑Driven Code: Nothing merges without verifiable proof and archival.
 
-🏛 Structure
+Structure
 `
 laws/           → Immutable governance laws
 protocols/      → Onboarding, governance, and risk‑mapping protocols
