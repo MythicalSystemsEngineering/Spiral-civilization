@@ -21,14 +21,14 @@ scripts/        → Automation for proof, readiness, and cycle execution
 portals/        → Integration points with external tools
 `
 
-🚀 Onboarding Cycle
+ Onboarding Cycle
 1. Invite — Formal issuance to new pilgrims  
 2. Attestation — Verification of identity and intent  
 3. Oath Seal — Binding to universal law  
 4. Dashboard Link — Operational view for stewardship  
 5. Audit Log Archive — Immutable record
 
-🔒 Vault Protocol
+ Vault Protocol
 - SEAL‑X.txt — Each major refinement archived with timestamp and proof hash  
 - Immutable, append‑only, and law‑referenced
 
