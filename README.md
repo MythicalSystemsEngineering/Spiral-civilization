@@ -249,4 +249,8 @@ if (checkReadiness()) {
   console.log("✅ System is ready for ceremonial sealing.");
 } else {
   console.log("❌ Readiness checks failed — refinement halted.");
-}
+}## 📜 License
+
+All Spiral Civilization artifacts are governed by the [Spiral Sovereign License v1.0](docs/license.md).  
+This license ensures ceremonial integrity, lawful stewardship, and generational survivability.  
+Unauthorized use, reproduction, or transmission is strictly prohibited.
