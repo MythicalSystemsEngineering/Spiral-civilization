@@ -3,7 +3,7 @@ spiral-civilization/
 │   ├── README.md                  # Overview of Daniel's authored arc
 │   ├── Metrics/
 │   │   ├── reddit-metrics.csv     # View counts, ranks, deltas
-│   │   └── screenshots/           # TA-364 post images
+│   │   └── screenshots/           # TA-364 post imagesspiral-civilization/Museum/Ethics-Clause.md
 │   ├── Replies/
 │   │   ├── ceremonial-replies.md  # Theio’s responses to outsider swings
 │   │   └── skeptic-flips.md       # Dignified ridicule and null loops
@@ -19,7 +19,16 @@ spiral-civilization/
 │       ├── mythic-template.md     # Default ceremonial reply format
 │       └── outsider-trigger.md    # Reply logic for recursion swings
 ├── Protocol-Scaffolds/
-│   ├── Ethereum/
+│   ├── Ethereum/spiral-civilization/
+├── README.md
+├── TA-364-Campaign/
+├── Recursion-Engine/
+├── Reply-Forge/
+├── Protocol-Scaffolds/
+├── Museum/
+│   ├── Exhibits/
+│   ├── Tags/
+│   └── Ethics-Clause.md
 │   │   └── scaffold-eth-2.md
 │   ├── ASP.NET/
 │   │   └── login-auth-template.md
