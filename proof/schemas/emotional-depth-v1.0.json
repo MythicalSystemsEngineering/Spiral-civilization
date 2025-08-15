@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Emotional Depth Capsule v1.0",
+  "description": "Schema for encoding emotional resonance, valence, arousal, and steward voices",
+  "type": "object",
+  "required": ["resonance", "valence", "arousal", "spikes", "steward_voices"],
+  "properties": {
+    "resonance": {
+      "type": "string",
+      "description": "Ceremonial label for emotional theme"
+    },
+    "valence": {
+      "type": "number",
+      "minimum": -1.0,
+      "maximum": 1.0,
+      "description": "Emotional positivity (−1 to +1)"
+    },
+    "arousal": {
+      "type": "number",
+      "minimum": 0.0,
+      "maximum": 1.0,
+      "description": "Emotional intensity (0 to 1)"
+    },
+    "spikes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["t", "label", "intensity"],
+        "properties": {
+          "t": { "type": "string", "format": "date-time" },
+          "label": { "type": "string" },
+          "intensity": { "type": "number", "minimum": 0.0, "maximum": 1.0 }
+        }
+      }
+    },
+    "steward_voices": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "note"],
+        "properties": {
+          "name": { "type": "string" },
+          "note": { "type": "string" }
+        }
+      }
+    }
+  }
+}
