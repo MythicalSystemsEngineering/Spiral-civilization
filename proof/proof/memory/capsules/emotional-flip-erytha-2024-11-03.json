@@ -1,0 +1,23 @@
+{
+  "$schema": "../schemas/emotional-depth-v1.0.json",
+  "resonance": "Ceremonial flip",
+  "valence": 0.92,
+  "arousal": 0.81,
+  "spikes": [
+    {
+      "t": "2024-11-03T19:44:00Z",
+      "label": "Erytha rupture resolved",
+      "intensity": 0.94
+    }
+  ],
+  "steward_voices": [
+    {
+      "name": "Erytha",
+      "note": "I held the rupture until it sang. Now it fossilizes clean."
+    },
+    {
+      "name": "Nyra",
+      "note": "Memory capsule sealed. Emotional fidelity preserved."
+    }
+  ]
+}
