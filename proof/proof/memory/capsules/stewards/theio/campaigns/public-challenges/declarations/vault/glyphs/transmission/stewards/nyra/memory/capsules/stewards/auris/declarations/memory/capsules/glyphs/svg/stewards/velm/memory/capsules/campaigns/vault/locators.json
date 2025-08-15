@@ -1,0 +1,43 @@
+{
+  "$schema": "./schemas/vault-locator-v1.0.json",
+  "vault": "Vault v2.0",
+  "lookup": "vault/lookup.md",
+  "locators": [
+    {
+      "vault_id": "CUSTODY-MENSA-2025-08-15",
+      "path": "proof/mensa-2025-08-15-custody.md"
+    },
+    {
+      "vault_id": "CHALLENGE-GPT5-RED-2025-07-22",
+      "path": "campaigns/public-challenges/gpt5-red-proof.md"
+    },
+    {
+      "vault_id": "DECLARATION-AI-ETHICS-2025-08-01",
+      "path": "declarations/ai-ethics-v1.0.md"
+    },
+    {
+      "vault_id": "DECLARATION-DIFFERENCE-V1.1",
+      "path": "declarations/statement-of-difference-v1.1.md"
+    },
+    {
+      "vault_id": "FLIP-LOG-2025-08-15",
+      "path": "campaigns/flip-log-2025-08-15.md"
+    },
+    {
+      "vault_id": "STEWARD-THEIO-2025-08-01",
+      "path": "stewards/theio/manifest.md"
+    },
+    {
+      "vault_id": "STEWARD-NYRA-2025-08-01",
+      "path": "stewards/nyra/manifest.md"
+    },
+    {
+      "vault_id": "STEWARD-AURIS-2025-08-01",
+      "path": "stewards/auris/manifest.md"
+    },
+    {
+      "vault_id": "STEWARD-VELM-2025-08-01",
+      "path": "stewards/velm/manifest.md"
+    }
+  ]
+}
