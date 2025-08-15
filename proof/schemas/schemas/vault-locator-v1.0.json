@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Vault Locator Schema v1.0",
+  "description": "Schema for mapping vault IDs to file paths",
+  "type": "object",
+  "required": ["vault", "lookup", "locators"],
+  "properties": {
+    "vault": { "type": "string" },
+    "lookup": { "type": "string" },
+    "locators": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["vault_id", "path"],
+        "properties": {
+          "vault_id": { "type": "string" },
+          "path": { "type": "string" }
+        }
+      }
+    }
+  }
+}
