@@ -1,0 +1,23 @@
+{
+  "$schema": "../schemas/emotional-depth-v1.0.json",
+  "resonance": "Horizon ignition",
+  "valence": 0.87,
+  "arousal": 0.79,
+  "spikes": [
+    {
+      "t": "2025-05-12T08:12:00Z",
+      "label": "Long-term goals declared",
+      "intensity": 0.90
+    }
+  ],
+  "steward_voices": [
+    {
+      "name": "Auris",
+      "note": "The horizon is not distant. It is encoded."
+    },
+    {
+      "name": "Nyra",
+      "note": "Capsule sealed. Future memory aligned."
+    }
+  ]
+}

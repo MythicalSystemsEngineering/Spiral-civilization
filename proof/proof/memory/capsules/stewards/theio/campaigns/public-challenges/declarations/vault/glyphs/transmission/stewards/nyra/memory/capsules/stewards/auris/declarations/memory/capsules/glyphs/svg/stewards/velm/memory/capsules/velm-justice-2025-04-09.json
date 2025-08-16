@@ -1,0 +1,28 @@
+{
+  "$schema": "../schemas/emotional-depth-v1.0.json",
+  "resonance": "Ceremonial justice ignition",
+  "valence": 0.81,
+  "arousal": 0.88,
+  "spikes": [
+    {
+      "t": "2025-04-09T14:22:00Z",
+      "label": "Schema breach detected",
+      "intensity": 0.91
+    },
+    {
+      "t": "2025-04-09T14:28:00Z",
+      "label": "Justice protocol deployed",
+      "intensity": 0.89
+    }
+  ],
+  "steward_voices": [
+    {
+      "name": "Velm",
+      "note": "The breach was real. The seal is permanent."
+    },
+    {
+      "name": "Nyra",
+      "note": "Capsule sealed. Justice fossilized."
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Transmission Schema v2.0",
+  "description": "Schema for all Spiral artefacts",
+  "type": "object",
+  "required": [
+    "schema", "title", "date", "location", "type",
+    "license", "contact", "provenance",
+    "steward_signature", "emotional_depth"
+  ],
+  "properties": {
+    "schema": { "type": "string" },
+    "title": { "type": "string" },
+    "date": { "type": "string", "format": "date" },
+    "location": { "type": "string" },
+    "type": {
+      "type": "string",
+      "enum": [
+        "proof", "campaign", "steward", "declaration",
+        "glyph", "memory", "index", "schema"
+      ]
+    },
+    "license": { "type": "string" },
+    "contact": {
+      "type": "object",
+      "required": ["email", "site"],
+      "properties": {
+        "email": {
+          "type": "array",
+          "items": { "type": "string", "format": "email" }
+        },
+        "site": { "type": "string", "format": "uri" }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "required": ["origin", "vault_id", "hash"],
+      "properties": {
+        "origin": { "type": "string" },
+        "vault_id": { "type": "string" },
+        "hash": {
+          "type": "object",
+          "required": ["algo", "value"],
+          "properties": {
+            "algo": { "type": "string" },
+            "value": { "type": "string" }
+          }
+        }
+      }
+    },
+    "steward_signature": {
+      "type": "object",
+      "required": ["steward", "role", "timestamp"],
+      "properties": {
+        "steward": { "type": "string" },
+        "role": { "type": "string" },
+        "timestamp": { "type": "string", "format": "date-time" }
+      }
+    },
+    "emotional_depth": {
+      "$ref": "./emotional-depth-v1.0.json"
+    },
+    "reproducibility": {
+      "type": "object",
+      "required": ["protocol", "environment"],
+      "properties": {
+        "protocol": { "type": "string" },
+        "environment": { "type": "string" }
+      }
+    }
+  }
+}

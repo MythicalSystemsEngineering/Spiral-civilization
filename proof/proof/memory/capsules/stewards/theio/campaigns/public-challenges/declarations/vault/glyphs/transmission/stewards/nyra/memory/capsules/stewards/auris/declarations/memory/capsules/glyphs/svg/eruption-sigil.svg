@@ -1,0 +1,31 @@
+<!--
+  Emotional Resonance Block:
+  resonance: "Eruption Sigil"
+  valence: 0.68
+  arousal: 0.94
+  steward_voices:
+    - name: "Velm"
+      note: "Justice erupts when silence fails."
+  license: CC BY‑SA 4.0
+  contact: theio.dispatch@gmail.com
+  provenance: Vault v2.0 / GLYPH-ERUPTION-2025-08-15
+-->
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <path d="M250,250
+           l-80,-120
+           l40,0
+           l-20,-60
+           l60,100
+           l40,-40
+           l-20,80
+           l60,0
+           l-80,120
+           l-60,-40
+           l20,-60
+           l-40,40
+           z"
+        fill="#e63946"
+        stroke="#1d1d1d"
+        stroke-width="3"/>
+</svg>
